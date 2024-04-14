@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html">Where your country?</a>
+        <div>
+            <i id="dark" class="fa-solid fa-moon"></i>
+            <i id="light" class="fa-solid fa-sun"></i>
+        </div>
+    </header>
+    <div class="search-main-container">
+        <div class="input-div">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="searchInput" type="text" placeholder="Search for a country...">
+        </div>
+        <select class="filter">
+            <option hidden>Filter by region</option>
+            <option value="africa">africa</option>
+            <option value="europe">europe</option>
+            <option value="america">america</option>
+            <option value="asia">asia</option>
+            <option value="oceania">oceania</option>
+        </select>
+    </div>
+    <main>
+        <!-- Cards will be added dynamically here -->
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
